@@ -1,1 +1,140 @@
 @import url(setting.css);
+.container{
+	width: 960px;
+	margin: 0 auto;
+
+}
+.row{
+	display: flex;	 
+}
+ .col-12{
+ 	flex: 0 1 100%; 
+ }
+  .col-11{
+ 	flex: 0 1 91.66666667%; 
+ }
+
+ .col-10{
+ 	flex: 0 1 83.33333333%; 
+ }
+
+ .col-9{
+ 	flex: 0 1 75%; 
+ }
+
+ .col-8{
+ 	flex: 0 1 66.66666667%; 
+ }
+
+ .col-7{
+ 	flex: 0 1 58.33333333%; 
+ }
+
+ .col-6{
+ 	flex: 0 1 50%; 
+ }
+
+ .col-5{
+ 	flex: 0 1 41.66666667%; 
+ }
+
+ .col-4{
+ 	flex: 0 1 33.33333333%; 
+ }
+
+ .col-3{
+ 	flex: 0 1 25%; 
+ }
+
+ .col-2{
+ 	flex: 0 1 16.66666667%; 
+ }
+ .col-1{
+ 	flex: 0 1 8.33333333%; 
+ }
+#menu{
+	border-top: 5px solid #7e5c88;
+}
+ #menu .logo{
+ 	float: left;
+ 	margin-top: 30px;
+	
+ }
+  #menu .logo a{
+
+ }	
+ #menu .logo a img{
+
+}
+
+#menu .menu{
+
+}
+#menu .menu ul{
+	display: flex;
+	margin-left: 130px; 
+
+}
+#menu .menu ul li{
+	flex: 1 1 16%;
+text-align: center;
+
+}
+#menu .menu ul li a{
+	font-size: 13px;
+	color: #979797;
+	padding-top: 53px;
+	padding-bottom: 33px;
+	display: inline-block;
+	width: 100%;
+
+
+
+}
+#menu .menu ul li a.active{
+	background: #7e5c88;
+	color: #fff;
+}
+
+#slider{
+	padding: 50px 0px;
+	-webkit-box-shadow: 0px 11px 21px -12px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 11px 21px -12px rgba(0,0,0,0.66);
+box-shadow: 0px 11px 21px -12px rgba(0,0,0,0.66);
+}
+#slider .text{
+	padding: 30px 50px;
+} 
+#slider .text h1{
+	font-size: 46px;
+	line-height: 46px;
+	color: #333;
+	margin-bottom: 30px;
+}
+#slider .text p{
+font-size: 14px;
+	line-height: 20px;
+	color: #979797;
+	margin-bottom: 30px;
+}
+#slider .text a{
+	color: #fff;
+	border-radius:  18px;
+	line-height: 35px;
+	background-color: #7e5c88;
+	padding: 0px 16px;
+	display: inline-block;
+}
+#slider .pic{
+
+}
+#slider .pic a{
+
+}
+#slider .pic a img{
+	width: 380px; 
+	height: 380px;
+	border-radius: 100%;
+	border: 26px solid #7e5c88; 
+}
+
